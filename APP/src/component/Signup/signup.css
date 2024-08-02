@@ -1,0 +1,169 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+  }
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 1rem; */
+}
+
+.formField {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.formActions {
+    display: flex;
+    justify-content: center;
+}
+
+.formSubmitBtn {
+    /* padding: 0.5rem 1rem;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formLabelAgain{
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+  }
+form {
+    max-width: 500px;
+    /* / Set the form's maximum width / */
+    margin: 20px auto;
+    /* / Center the form horizontally / */
+    padding: 20px;
+    /* / Add some padding inside the form / */
+    border: 1px solid #ccc;
+    /* / A light border around the form / */
+    border-radius: 5px;
+    /* / Slightly rounded corners for the form / */
+    background-color: #f9f9f9;
+    /* / A light background color / */
+  }
+  
+  /* / Styles for each input and label container / */
+  form div {
+    margin-bottom: 15px;
+    /* / Add some space below each input / */
+  }
+  
+  /* / Styles for labels / */
+  label {
+    display: block;
+    /* / Make each label block-level for better control / */
+    margin-bottom: 5px;
+    /* / A little space between the label and the input / */
+  }
+  
+  /* / Styles for inputs / */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    /* / Make inputs fill their container / */
+    padding: 8px;
+    /* / Add some padding inside the inputs / */
+    margin: 5px 0 20px 0;
+    /* / Add some margin for spacing / */
+    display: inline-block;
+    /* / Ensure inputs are line elements / */
+    border: 1px solid #ccc;
+    /* / A subtle border / */
+    border-radius: 4px;
+    /* / Slightly rounded borders on the inputs / */
+    box-sizing: border-box;
+    /* / This ensures padding doesn't add to the total width / */
+  }
+  
+  /* / Styles for the submit button / */
+  button[type="submit"] {
+    width: 100%;
+    /* / Make the button fill its container / */
+    background-color: rgb(40, 118, 154);
+    /* / A green background / */
+    color: white;
+    /* / White text color / */
+    padding: 14px 20px;
+    /* / Some padding / */
+    margin: 8px 0;
+    /* / Some margin / */
+    border: none;
+    /* / No border / */
+    border-radius: 4px;
+    /* / Rounded corners / */
+    cursor: pointer;
+    /* / Pointer cursor on hover / */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(133, 186, 211);
+    /* / Darker shade of green on hover / */
+  }
+  
+  /* / Styles for the close button / */
+  .closeButton1 {
+    float: right;
+    /* / Position it to the right / */
+    border: none;
+    /* / No border / */
+    background: none;
+    /* / No background / */
+    font-size: 20px;
+    /* / Larger font size / */
+    cursor: pointer;
+    /* / Pointer cursor on hover / */
+  }
+  
+  /* / Clearfix for the float / */
+  form::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .closeButton1Test{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+  }
+
+  /* css for password /*/
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    left: 93%;   /*Adjust as needed /*/
+    top: 43%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+
+
+
+
+

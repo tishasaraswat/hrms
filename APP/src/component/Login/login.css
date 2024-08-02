@@ -1,0 +1,12 @@
+/* / css for password / */
+.password-input-container {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  left: 93%;                        /*Adjust as needed */
+  top: 43%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
